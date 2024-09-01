@@ -20,6 +20,7 @@ body {
   min-height: 700px; */
   background: linear-gradient(rgba(2, 29, 183, 0.963), rgb(146, 4, 96));
   position: relative;
+  overflow: hidden;
 }
 #botao1 {
   background: rgba(68, 166, 158, 0.406);
@@ -37,11 +38,13 @@ body {
   background: yellow;
   color: black;
 }
+
 .book {
-  width: 930px;
-  height: 654.5px;
-  transform: translate(-50%, -50%);
+  width: 80vw; /* Responsive width */
+  height: 60vh; /* Responsive height */
   transform-style: preserve-3d;
+  max-width: 930px; /* Max width */
+  max-height: 654.5px; /* Max height */
 }
 
 .page {
