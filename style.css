@@ -40,7 +40,7 @@ body {
 .book {
   width: 930px;
   height: 654.5px;
-  transform: translate(-50%, -50%) rotatex(10deg) rotatey(-10deg);
+  transform: translate(-50%, -50%);
   transform-style: preserve-3d;
 }
 
